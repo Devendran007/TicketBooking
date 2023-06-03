@@ -1,0 +1,668 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+div{
+    width:95%;
+    height:auto;
+    margin:auto;
+	font-family:Arial; 
+}
+header{
+    width:100%;
+    height:100px;
+    border-bottom:1px solid #00D8FF;
+    background-size:100% 100%;
+    background-color:#003580; /*112E2E;*/
+    position:sticky;
+    top:0px;
+    z-index:1;	
+	border-bottom:2px solid white;
+}
+
+header img{
+	width:100px;
+	height:100px;
+	float:left;
+	left:0px;
+	opacity:0.8;
+}
+#nav1 ul li
+{
+	display:inline-block;
+	color:white;
+	margin-left:100px;
+	position:relative;
+	top:20px;
+	
+}
+a
+{    
+	color:white;
+	padding:0px;
+	
+}
+
+a:hover
+{
+	color:orange;	
+	display:block;
+}
+#book
+{   color:white;
+    background:#00D8FF;
+	border: 5px solid #00D8FF;
+    border-radius:10px;
+	padding:6px;
+	width:90px;
+	height:20px;
+	font-weight:bold;
+	font-size:17px;
+	word-spacing:2px;
+
+}
+#book:hover
+{
+	color:#fb8500;
+}
+#section1
+{
+font-family: Arial;
+	 width:100%;
+    height:100%;
+	background-image:url("sky1.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.c
+{
+	
+	display:inline-block;
+	width:100px;
+	margin:10px 100px 20px 2px;
+	font-size:20px;
+    text-transform: uppercase;
+    background:#fb8500;
+    padding:8px;
+	margin:10px 0px 0px 10px;
+    border-radius:10px;
+    color:#FFF8F5;
+    text-align:center;
+    position:relative;
+	top:10px;
+	
+	}
+	
+.c:hover
+{
+   color:brown;	
+}
+table
+{
+    font-size:17px;	
+	font-weight:bold;
+	height:50%
+	position:relative;
+	bottom:60px;
+	border:2px align blue;
+}
+	td
+	{
+		
+		color:#fb8500;
+		
+	}
+ td:hover
+ {
+	 color:white;
+ } 
+	
+input
+{
+	margin-right:20px;
+}	
+h2
+{
+		
+	text-align:center;
+	color:black;
+	width:50px;
+	color:#fb8500;
+    position:relative;
+	top:100px;
+	left:10px;
+  
+  
+}
+
+#k
+{
+    position:relative;
+	width:100px;
+	
+    left:116px;	
+	top:60px;
+}	
+#newpack
+{
+	font-weight:bold;
+	font-size:23px;
+}
+ #sea
+{
+ background:orange;
+ list-style-type:none;
+ width:80px;
+ text-align:center;
+ padding:10px;
+ border-radius:10px;
+ color:white;
+ margin:0px 0px 0px 105px;
+ position:relative;
+ top:75px;
+ left:10px;
+ color:white;
+ background:#fb8500	;
+ }
+#sea:hover
+{
+	background:green;
+	pointer:cursor;
+	
+}
+
+
+#section2
+{
+	width:100%;
+	height:400px;
+	
+	display:flex;
+	font-family:arial;
+	
+}
+#art1 ,#art2, #art3
+{
+   position:relative;
+   top:100px;   
+}
+#art1
+{
+	width:30%;
+	height:300px;
+	
+}
+#art2
+{
+   width:30%;
+   height:300px;
+  
+     
+}
+#art3
+{
+   width:30%;
+   height:300px;
+  
+ }
+ #art1 ,#art2 ,#art3
+ {
+	  margin:auto;
+	  margin-top:50px;
+}
+.sec2h4
+{
+   	font-weight:bold;
+  position:relative;
+  left:100px;
+  bottom:50px;
+ 
+  }
+
+
+#section3
+{
+	width:100%;
+	height:150%;
+	
+    
+}
+
+#art6
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	 border:10px solid white;
+	 
+}
+#section3 #art6 img
+{
+	width:100%;
+	height:350px;
+}
+.china 
+{
+	 color:white;
+	position:relative;
+	left:90px;
+	bottom:150px;
+	font-size:30px;
+	font-weight:bold;
+	}
+.chinatour
+{
+	     color:white;
+		position:relative;
+	   left:90px;
+	   bottom:150px;
+	   padding:5px;
+	   font-size:20px;
+	   font-weight:bold;
+}
+.china:hover
+{
+   color:#00D8FF;
+	cursor:pointer;
+}
+.chinatour:hover
+{
+   color:#00D8FF;
+	cursor:pointer;
+}	
+#art7
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	 border:10px solid white;
+	 
+}
+
+#section3 #art7 img
+{
+	width:100%;
+	height:350px;
+	
+}
+#art8
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	  border:10px solid white;	
+	
+}
+#section3 #art8 img
+{
+	width:100%;
+	height:350px;
+	
+}
+
+#art9
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	 border:10px solid white;
+	 
+	 
+}
+#section3 #art9 img
+{
+	width:100%;
+	height:350px;
+	
+}
+#art10
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	 border:10px solid white;
+	 
+	 
+}
+#section3 #art10 img
+{
+	width:100%;
+	height:350px;
+	
+}
+#art11
+{
+	 width:31%;
+	 height:350px;
+	 float:left;
+	 border:10px solid white;
+}
+#section3 #art11 img
+{
+	width:100%;
+	height:350px;
+	
+}
+#section4
+{
+	width:100%;
+	height:130%;
+	
+}
+#art12
+{
+	font-size:20px;
+	
+}
+#art13
+{
+	width:31%;
+	height:350px;
+	 float:left;
+	 border:10px solid white;
+	
+}
+.china 
+{
+	 color:white;
+	position:relative;
+	left:90px;
+	bottom:150px;
+	font-size:30px;
+	font-weight:bold;
+	}
+.chinatour
+{
+	     color:white;
+		position:relative;
+	   left:90px;
+	   bottom:150px;
+	   padding:5px;
+	   font-size:20px;
+	   font-weight:bold;
+}
+.china:hover
+{
+   color:#00D8FF;
+	cursor:pointer;
+}
+.chinatour:hover
+{
+   color:#00D8FF;
+	cursor:pointer;
+}
+
+#art14
+{
+	width:31%;
+	height:350px;
+	 float:left;
+	 border:10px solid white;
+}
+#art15
+{
+	width:31%;
+	height:350px;
+	 float:left;
+	 border:10px solid white;
+}	
+#art16
+{
+	width:31%;
+	height:350px;
+	 float:left;
+	 border:10px solid white;
+}
+#art17
+{
+	width:31%;
+	height:350px;
+	 float:left;
+	 border:10px solid white;
+}
+#section5
+{ 
+    width:100%;
+	height:130%;
+	 
+}
+#art18
+{
+		width:50%;
+	    height:50%;
+	   	 border:17px solid #00D8FF;
+		 margin-left:300px;
+}
+
+#section6
+{ 
+    width:100%;
+	height:70%;
+	
+    color:white;
+	 
+}
+#section6
+{
+	background-image:url("subscribe-banner.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+}
+
+#section6 h3
+{
+	font-size:30px;
+	font-weight:bold;
+    color:Black;
+	position:relative;
+	left:500px;
+	bottom:100px;
+}
+
+#section6 h1
+{
+	font-size:30px;
+	font-weight:bold;
+}
+#section6 .sub2:hover
+{
+	color:yellow;
+}
+#section6  .sub3:hover
+{
+	color:yellow;
+}
+#section6 p
+{
+	font-size:19px;
+	font-weight:bold;
+}
+input[type=text], select {
+  width: 500px;
+  padding: 20px 20px;
+  position:relative;
+  top:70px;
+  left:350px;
+  display: inline-block;
+  border: 5px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size:15px;
+
+}
+
+
+input[type=submit] 
+{
+  width: 10%;
+  font-size:20px;
+  background-color: #00D8FF;
+  color: white;
+  padding: 14px 20px;
+  position:relative;
+  left:200px;
+  top:71px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input::placeholder
+{
+	color:green;
+}
+input:hover
+{
+	background:#9FFCFD;
+}
+#section7
+{
+	width:100%;
+	height:100%;
+	
+	color:black;
+}
+#art19
+{
+	width:25%;
+	height:100%;
+	float:left;
+}
+#art20
+{
+	width:25%;
+	height:100%;
+	float:left;
+}
+#art20:hover{
+	color:#00D8FF;
+	cursor:pointer;
+}
+#art20 h3
+{
+	font-weight:bold;
+	font-size:20px;
+	list-style:none;
+	position:relative;
+	left:100px;
+	top:70px;
+	
+	
+}
+#art20 ul li
+{
+	list-style:none;
+	position:relative;
+	left:100px;
+  	top:100px;
+}
+#art21
+{
+	width:25%;
+	height:100%;
+	float:left;
+}
+
+#art21:hover{
+	color:#00D8FF;
+	cursor:pointer;
+}
+#art21 h3
+{
+	font-weight:bold;
+	font-size:20px;
+	list-style:none;
+	position:relative;
+	left:100px;
+	top:70px;
+	
+	
+}
+#art21 ul li
+{
+	list-style:none;
+	position:relative;
+	left:100px;
+  	top:100px;
+}
+#art22
+{
+	width:25%;
+	height:100%;
+	float:left;
+}
+
+#art22:hover{
+	color:#00D8FF;
+	cursor:pointer;
+}
+#art22 h3
+{
+	font-weight:bold;
+	font-size:20px;
+	list-style:none;
+	position:relative;
+	left:100px;
+	top:70px;
+	
+	
+}
+#art22 ul li
+{
+	list-style:none;
+	position:relative;
+	left:100px;
+  	top:100px;
+}
+ footer
+{
+	width:100%;
+	height:30%;
+	
+	
+}
+ footer #copyrights:hover
+{
+	color:#00D8FF;
+	cursor:pointer;
+}
+footer #copyrights
+{
+	position:relative;
+    right:250px;
+	bottom:300px;
+	
+	
+}
+footer
+{
+	background-image:url("threelogo.png");
+	background-size:50% 50%;
+	background-repeat:no-repeat;
+	
+	position:relative;
+	left:320px;
+	top:360px;
+}
+
+
+
+
+
+
+
+
+ 
+ 
+	 
+ 
+
+ 
+	
+	
+	
+	
+	
+	
